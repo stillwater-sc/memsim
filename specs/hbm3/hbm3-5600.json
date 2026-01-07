@@ -1,0 +1,50 @@
+{
+  "technology": "HBM3",
+  "speed_gbps": 5.6,
+  "description": "JEDEC HBM3-5600 timing specification",
+
+  "organization": {
+    "channels_per_stack": 16,
+    "pseudo_channels_per_channel": 2,
+    "bank_groups_per_pseudo_channel": 4,
+    "banks_per_bank_group": 4,
+    "rows_per_bank": 32768,
+    "columns_per_row": 64,
+    "device_width_bits": 64,
+    "burst_length": 8
+  },
+
+  "timing": {
+    "tRCD": 14,
+    "tRP": 14,
+    "tRAS": 28,
+    "tRC": 42,
+    "tCL": 14,
+    "tWL": 4,
+    "tWR": 16,
+    "tRTP": 4,
+    "tRRD_L": 4,
+    "tRRD_S": 4,
+    "tCCD_L": 4,
+    "tCCD_S": 2,
+    "tFAW": 16,
+    "tWTR_L": 8,
+    "tWTR_S": 4,
+    "tRTW": 14,
+    "tBurst": 4,
+    "tRFC": 280,
+    "tRFCpb": 90,
+    "tREFI": 1950
+  },
+
+  "power": {
+    "VDD": 1.1,
+    "VDDQ": 1.1,
+    "IDD0": 120,
+    "IDD2N": 80,
+    "IDD3N": 100,
+    "IDD4R": 400,
+    "IDD4W": 350,
+    "IDD5": 450
+  }
+}

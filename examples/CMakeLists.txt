@@ -1,0 +1,5 @@
+add_executable(simple_simulation simple_simulation.cpp)
+target_link_libraries(simple_simulation PRIVATE memsim)
+
+add_executable(multi_fidelity multi_fidelity.cpp)
+target_link_libraries(multi_fidelity PRIVATE memsim)

@@ -1,0 +1,50 @@
+{
+  "technology": "LPDDR5",
+  "speed_mt_s": 6400,
+  "description": "JEDEC LPDDR5-6400 timing specification",
+
+  "organization": {
+    "channels": 1,
+    "ranks_per_channel": 1,
+    "bank_groups_per_rank": 4,
+    "banks_per_bank_group": 4,
+    "rows_per_bank": 65536,
+    "columns_per_row": 1024,
+    "device_width_bits": 16,
+    "burst_length": 16
+  },
+
+  "timing": {
+    "tRCD": 18,
+    "tRP": 18,
+    "tRAS": 42,
+    "tRC": 60,
+    "tCL": 17,
+    "tWL": 8,
+    "tWR": 34,
+    "tRTP": 12,
+    "tRRD_L": 8,
+    "tRRD_S": 4,
+    "tCCD_L": 8,
+    "tCCD_S": 4,
+    "tFAW": 32,
+    "tWTR_L": 16,
+    "tWTR_S": 8,
+    "tRTW": 18,
+    "tBurst": 8,
+    "tRFC": 280,
+    "tRFCpb": 90,
+    "tREFI": 3900
+  },
+
+  "power": {
+    "VDD": 1.05,
+    "VDDQ": 0.5,
+    "IDD0": 60,
+    "IDD2N": 40,
+    "IDD3N": 50,
+    "IDD4R": 180,
+    "IDD4W": 160,
+    "IDD5": 200
+  }
+}
