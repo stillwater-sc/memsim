@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(stillwater-memsim
+project(memsim
     VERSION 0.1.0
     DESCRIPTION "Multi-fidelity memory simulation library for embodied AI accelerators"
-    HOMEPAGE_URL "https://github.com/stillwater-sc/stillwater-memsim"
+    HOMEPAGE_URL "https://github.com/stillwater-sc/memsim"
     LANGUAGES CXX
 )
 
